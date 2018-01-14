@@ -1,0 +1,27 @@
+<md-card class="bgc"><div><h2>Real-Time Campus Recruitment System</h2></div>
+
+</md-card> 
+
+
+<md-card class="example-card "><h1 class="heading">Sign Up</h1>
+  <div class="int">
+<md-input-container>
+  <input size="100"  [(ngModel)] = "email" type="email" pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$"   mdInput placeholder="Email Address">
+</md-input-container>
+  </div>
+
+   <div class="int">
+<md-input-container>
+  <input size="100" [(ngModel)] = "password"  mdInput placeholder="Password" type="password">
+</md-input-container>
+  </div>
+<div class="radio">
+  <md-radio-group [(ngModel)]="type">
+    <md-radio-button value="student">student</md-radio-button>
+    <md-radio-button value="company">company</md-radio-button>
+  </md-radio-group></div>
+
+<div>
+<button  [disabled]="!email || !password || !type"   (click) = "Register()" class="btn" md-raised-button>SignUp</button></div>
+<div class="div-1">already registered?<a routerLink="/student"> login </a></div>
+</md-card>

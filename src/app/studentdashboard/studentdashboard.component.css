@@ -1,0 +1,54 @@
+.example-card {
+  background-color: #FF1493;
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.para {
+    float: right;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.para-1 {
+   margin-left: 200px;
+   margin-top: -20px;
+   cursor: pointer;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.para-2 {
+   margin-left: 323px;
+   margin-top: -36px;
+   cursor: pointer;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.para-3 {
+   margin-left: 460px;
+   margin-top: -37px;
+   cursor: pointer;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.Link {
+  color: white;
+  text-decoration: none;
+  margin-left: 50px;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.Link-1 {
+  color: white;
+  text-decoration: none;
+  float: right;
+  cursor: pointer;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+

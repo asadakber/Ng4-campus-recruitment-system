@@ -1,0 +1,194 @@
+ .example-card {
+    background-color: #FF1493;
+    color: white;
+    text-align:left;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .para {
+      float: right;
+      cursor: pointer;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .card {
+    width: 1200px;
+    margin: 0 auto;
+    color: black;
+ }
+
+ .margin {
+     margin-top: 50px;
+ }
+ 
+  
+  .para-1 {
+     margin-left: 200px;
+     margin-top: -20px;
+     cursor: pointer;
+     font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .para-2 {
+     margin-left: 323px;
+     margin-top: -36px;
+     cursor: pointer;
+     font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .para-3 {
+     margin-left: 460px;
+     margin-top: -37px;
+     cursor: pointer;
+     font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .Link {
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .Link-1 {
+    color: white;
+    text-decoration: none;
+   float: right;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .container {
+    display: block;
+    background: #f4f4f4;
+    max-width: 650px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 40px;
+    text-align: center;
+    position: relative;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+   
+  
+  input, select {
+    width: 100%;
+    display: inline-block;
+    padding: 15px;
+    font-weight: 100;
+    font-size: 20px;
+    margin: 5px 0;
+    color: #483d8b;
+    font-family: Arial, Helvetica, sans-serif;
+  }  
+  
+  input[type=text], select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* input[type=submit] {
+      width: 100%;
+      background-color: #21B6A8;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+  } */
+  
+  /* input[type=submit]:hover {
+      background-color: #21B6A8;
+  } */
+   /* div {
+      border-radius: 5px;
+      background-color: #21B6A8;
+      padding: 20px;
+  }  */
+ 
+  h1 {
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.li {
+    color: black;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 20px;
+    resize: none;
+    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+  
+ table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* tr:nth-child(even){background-color: #f2f2f2} */
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+/* th {
+        background-color: #21B6A8;
+    color: white;
+} */
+
+/* tr:hover{background-color:#f5f5f5}  */
+  
+ .btn {
+    background-color: #FF1493;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+      
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+} 
+  
+  

@@ -1,0 +1,19 @@
+<md-card class="example-card">
+  <!-- <div class="btn"><button (click) = "logOut()" md-button>LogOut</button></div> -->
+  <a class="Link" routerLink="/company-data">Company Data</a>
+  <!-- <a class="Link" routerLink="/company-profile">Company Profile</a> -->
+  <a class="Link" routerLink="/student-view">Student View</a>
+  <a class="Link" routerLink="/postjob">Post Job</a>
+  <a class="Link" routerLink="/viewpost">View Post</a>
+  </md-card>
+  <h1 style="text-align:center;color:white;">Post Job</h1>
+  <div class="container">
+      <div class="card"> 
+    <form [formGroup]= " form" (ngSubmit)="onsubmit(form.value)">
+      <input style="background-color:transparent;" type="text" id="fname" name="name"  placeholder="Job Title" formControlName="name">
+      <input style="background-color:transparent;" type="text" id="fname" name="salary"  placeholder="Salary" formControlName="salary">
+      <textarea style="background-color:transparent;" placeholder="Description" name="description" formControlName="description"></textarea>
+      <button [disabled]="!form.valid" style="background-color: #FF1493;"  md-raised-button color="accent">Submit</button>
+    </form>
+  </div>  
+  </div>

@@ -1,0 +1,34 @@
+<md-card class="example-card">
+    <!-- <div class="btn"><button (click) = "logOut()" md-button>LogOut</button></div> -->
+    <a class="Link" routerLink="/company-data">Company Data</a>
+    <!-- <a class="Link" routerLink="/company-profile">Company Profile</a> -->
+    <a class="Link" routerLink="/student-view">Student View</a>
+    <a class="Link" routerLink="/postjob">Post Job</a>
+    <a class="Link" routerLink="/viewpost">View Post</a>
+    </md-card>
+    <h1>Your Job Detail</h1>
+    <table>
+      <tr>
+        <th>Name</th>
+        <th>Salary</th>
+        <th>Description</th>
+        <th>Applied Students</th>
+      </tr>
+      <tr *ngFor = "let data of tableview">
+        <td>{{data.name}}</td>
+        <td>{{data.salary}}</td>
+        <td>{{data.description}}</td>
+        <td><button (click)="stdapply()"  class="btn" md-raised-button color="accent">View Students</button></td>
+      </tr>
+    </table>
+    <div class="margin">
+    <md-card class="card"> Apply View
+        <md-list  *ngFor = "let data of applydata">
+          <md-list-item class="li">Name: {{data.name}}</md-list-item>
+          <md-list-item class="li">Program: {{data.program}}</md-list-item>
+          <md-list-item class="li">Semester: {{data.semester}}</md-list-item>
+          <md-list-item class="li">Gpa: {{data.gpa}}</md-list-item>
+          <md-list-item class="li">Phone: {{data.phone}}</md-list-item>
+        </md-list>
+      </md-card></div>
+ 

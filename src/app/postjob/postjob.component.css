@@ -1,0 +1,140 @@
+.example-card {
+    background-color: #FF1493;
+    color: white;
+    text-align:left;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .para {
+      float: right;
+      cursor: pointer;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .para-1 {
+     margin-left: 200px;
+     margin-top: -20px;
+     cursor: pointer;
+     font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .para-2 {
+     margin-left: 323px;
+     margin-top: -36px;
+     cursor: pointer;
+     font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .para-3 {
+     margin-left: 460px;
+     margin-top: -37px;
+     cursor: pointer;
+     font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .Link {
+    color: white;
+    text-decoration: none;
+    margin-left: 50px;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .Link-1 {
+    color: white;
+    text-decoration: none;
+   float: right;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+   .container {
+    display: block;
+    max-width: 650px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 40px;
+    text-align: center;
+    position: relative;
+    font-family: sans-serif;
+    font-size: 15px;
+  } 
+  
+  .card {
+    width: 300px;
+    margin: 0 auto;
+  }
+   
+  
+  input, select {
+    width: 100%;
+    display: inline-block;
+    padding: 15px;
+    font-weight: 100;
+    font-size: 20px;
+    margin: 5px 0;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }  
+  
+  input[type=text], select {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: none;
+      border-radius: 4px;
+      box-sizing: border-box;
+      border: 1px dashed black;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  input[type=submit] {
+      width: 100%;
+      background-color: #FF1493;
+      color: white;
+      padding: 14px 20px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  input[type=submit]:hover {
+      background-color: #FF1493;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  div {
+      border-radius: 5px;
+      padding: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+  }
+
+  h1 {
+    font-size: 40px;
+    color: #FF1493;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 20px;
+    resize: none;
+    border: 1px dashed black;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+}
+  
+  
+  
+  
+  
+  

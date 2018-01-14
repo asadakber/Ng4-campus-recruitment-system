@@ -1,0 +1,25 @@
+<md-card class="example-card">
+<div><a class="Link" routerLink="/student-data">Student Data</a>
+<!-- <a class="Link" routerLink="/student-profile">Student Profile</a> -->
+<a class="Link" routerLink="/company-view">Company View</a>
+<a class="Link" routerLink="/viewjob">View Job</a>
+</div>
+</md-card>
+<h1>Company View</h1>
+
+
+  <!-- <div style="height:1px; background-color:grey;"></div> -->
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Address</th>
+      <th>Contact</th>
+    </tr>
+  <tr *ngFor = "let data of tableview">
+    <td style="color:black;">{{data.name}}</td>
+    <td style="color:black;">{{data.email}}</td>
+    <td style="color:black;">{{data.address}}</td>
+    <td style="color:black;">{{data.contact}}</td>
+  </tr>
+</table>

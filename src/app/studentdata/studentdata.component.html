@@ -1,0 +1,20 @@
+<md-card class="example-card-1">
+<a class="Link" routerLink="/student-data">Student Data</a>
+<!-- <a class="Link" routerLink="/student-profile">Student Profile</a> -->
+<a class="Link" routerLink="/company-view">Company View</a>
+<a class="Link" routerLink="/viewjob">View Job</a>
+<a class="Link-1" (click) = "logOut()">Go To Student Dashboard</a>
+</md-card>
+<h1 style="text-align:center; color:white;">Student Data</h1>
+<div class="container">
+    <div class="card">
+  <form  [formGroup]= " form" (ngSubmit)="onsubmit(form.value)">
+    <input style="background-color:transparent;" type="text" id="fname" name="name"  placeholder="Name" formControlName="name">
+    <input style="background-color:transparent;"  type="text" id="lname" name="program"  placeholder="Program" formControlName="program">
+    <input style="background-color:transparent;"  type="text" id="lname" name="semester"  placeholder="Semester" formControlName="semester">
+    <input style="background-color:transparent;"  type="text" id="lname" name="gpa"  placeholder="GPA" formControlName="gpa">
+    <input style="background-color:transparent;"  type="text" id="lname" name="phone"  placeholder="Phone" formControlName="phone">
+    <button [disabled]="!form.valid" style="background-color: #FF1493;" md-raised-button>Submit</button>
+  </form>
+</div>
+</div>

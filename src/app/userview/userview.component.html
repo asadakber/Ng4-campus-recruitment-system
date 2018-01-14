@@ -1,0 +1,21 @@
+<md-card class="example-card">
+  <!-- <div class="btn"><button (click) = "logOut()" md-button>LogOut</button></div> -->
+  <a class="Link" routerLink="/ASV">Student View</a>
+  <a class="Link" routerLink="/ACV">Company View</a>
+  <a class="Link" routerLink="/AJV">Job View</a>
+  <a class="Link" routerLink="/applicant">Applicant</a>
+  <a class="Link" routerLink="/userview">User View</a>
+  <!-- <a class="Link" routerLink="/applicant">Applicants</a> -->
+
+  </md-card>
+  <h1 class="h1">User View</h1>
+  <table>
+    <tr>
+      <th>Email</th>
+      <th>Delete</th>
+    </tr>
+    <tr *ngFor = "let data of tableview">
+      <td>{{data.email}}</td>
+      <td><button md-raised-button color="accent" (click)="delete(i)">Delete</button></td>
+    </tr>
+  </table>

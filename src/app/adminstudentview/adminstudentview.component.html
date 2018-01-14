@@ -1,0 +1,29 @@
+<md-card class="example-card">
+    <div><a class="Link" routerLink="/ASV">Student View</a>
+     <a class="Link" routerLink="/ACV">Company View</a>
+     <a class="Link" routerLink="/AJV">Job View</a>
+     <a class="Link" routerLink="/applicant">Applicant</a>
+     <a class="Link" routerLink="/userview">User View</a>
+     <!-- <a class="Link" routerLink="/applicant">Applicants</a> -->
+     <a class="Link-1"  (click) = "logOut()">Go To Admin Dashboard</a>
+     </div>
+     </md-card>
+     <h1>Your Student Profile</h1>
+     <table>
+       <tr>
+         <th>Name</th>
+         <th>Program</th>
+         <th>Semester</th>
+         <th>GPA</th>
+         <th>Phone</th>
+         <th>Delete</th>
+       </tr>
+       <tr *ngFor = "let data of tableview; let i = index">
+         <td>{{data.name}}</td>
+         <td>{{data.program}}</td>
+         <td>{{data.semester}}</td>
+         <td>{{data.gpa}}</td>
+         <td>{{data.phone}}</td>
+         <td><button class="btn" md-raised-button color="accent" (click)="delete(i)">Delete</button></td>
+       </tr>
+     </table>
